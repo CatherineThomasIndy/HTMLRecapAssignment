@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Adventure</title>
+</head>
+<body>
+    <h1>Choose Your Pokemon!</h1>
+    <hr />
+    <h4>Play the video to hear music!</h4>
+    <iframe src="https://www.youtube.com/embed/pmWQw8Cwfa0"
+        frameborder="0"
+        width="560" height="315"
+        allowfullscreen>
+    </iframe>
+    <hr />
+    <img src="professor-oak.png"
+    alt="Professor Oak">
+    <p>"Hello, there! Glad to meet you! Welcome to the world of Pokemon! My name is Oak. People affectionately refer to me as the Pokemon Professor.
+        <br />
+        This world is inhabited far and wide by creatures called Pokemon. For some people, Pokemon are pets. Others use them for battling.
+        <br />
+        As for myself... I study Pokemon as a profession. But first, tell me a little about yourself.
+    </p>
+    <hr />
+    <div style="border: solid 5px red; padding: .8rem;">
+        <form>
+            <fieldset>
+                <legend>Now tell me. Are you a boy? Or are you a girl?</legend>
+                <p>
+                    <input type="radio" name="gender"
+                        id="gender0" value="gender0" />
+                    <label for="gender0">Boy</label>
+                </p>
+                <p>
+                    <input type="radio" name="gender"
+                        id="gender1" value="gender1" />
+                    <label for="gender1">Girl</label>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+    <hr />
+    <div style="border: solid 5px green; padding: .8rem;">
+        <form>
+            <fieldset>
+                <legend>Let's begin with your name. What is it?</legend>
+                <p>
+                    <label>
+                        Player Name:
+                        <input name="name" />
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <hr />
+    <img src="starter-pokemon.png"
+    alt="Starter Pokemon">
+    <br />
+    <p>There are three Pokemon here. You can have one. Go on, choose!</p>
+    <div style="border: solid 5px blue; padding: .8rem;">
+        <form>
+            <fieldset>
+                <legend>Choose Your Starter</legend>
+                <p>
+                    <input type="radio" name="starter"
+                        id="starter0" value="starter0" />
+                    <label for="starter0">Bulbasaur</label>
+                </p>
+                <p>
+                    <input type="radio" name="starter"
+                        id="starter1" value="starter1" />
+                    <label for="starter1">Charmander</label>
+                </p>
+                <p>
+                    <input type="radio" name="starter"
+                        id="starter2" value="starter2" />
+                    <label for="starter3">Squirtle</label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <div style="border: solid 5px yellow; padding: .8rem;">
+        <h3>To find out more about your chosen Pokemon, check out the links below!</h3>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)" target="_blank">Bulbasaur</a>
+                </li>
+                <li>
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)" target="_blank">Charmander</a>
+                </li>
+                <li>
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)" target="_blank">Squirtle</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
